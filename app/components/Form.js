@@ -117,7 +117,7 @@ export default function Form(){
 
             {/* result section */}
             <section className="w-full pt-10 text-center shadow-lg shadow-black-50">
-                <h3>Report Table Coming Soon ....</h3>
+                
                 <div className="m-5 grid grid-cols-3 grid-flow-row gap-4"  >
                     { result.map(item=>{
                     return( 
@@ -128,10 +128,10 @@ export default function Form(){
                         
                             <p class="text-gray-700 text-base">
                                             <p>Location: {item.location}</p>
-                                            <p> minumimCookie: {item.minumimCookie}</p> 
+                                            <p> Minumim Customer per Hour: {item.minumimCookie}</p> 
                             
-                                            <p>maxumimCookie: {item.maxumimCookie}</p> 
-                                            <p>avgCookie:{item.avgCookie}</p>
+                                            <p>Maxumim Customer per Hour: {item.maxumimCookie}</p> 
+                                            <p>Average Cookies per Sale:{item.avgCookie}</p>
 
                             </p>
                         </div>
@@ -141,6 +141,7 @@ export default function Form(){
                     })}
                     
                 </div> 
+                <h3>Report Table Coming Soon ....</h3>
             </section>
         </>
     )
