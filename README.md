@@ -33,4 +33,4 @@
 
 
 ### PR Link
-[PR](https://github.com/Ashar121299/cookie-stand-admin/pull/1)
+[PR](https://github.com/Ashar121299/cookie-stand-admin/pull/2)
